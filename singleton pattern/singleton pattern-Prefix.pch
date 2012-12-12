@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'singleton pattern' target in the 'singleton pattern' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
