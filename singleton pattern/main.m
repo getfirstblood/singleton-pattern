@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "one.h"
+#import "two.h"
 int main(int argc, const char * argv[])
 {
 
@@ -15,7 +16,10 @@ int main(int argc, const char * argv[])
         
         // insert code here...
         NSLog(@"Hello, World!");
-        
+        one *on = [[[one alloc] init] autorelease];
+        [on test];
+        two *tw = [[[two alloc] init] autorelease];
+        [tw test];
     }
     return 0;
 }

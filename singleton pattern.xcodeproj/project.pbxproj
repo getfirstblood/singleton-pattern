@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8F01264167976BF007220D0 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F01263167976BF007220D0 /* Singleton.m */; };
+		C8F01268167979CD007220D0 /* one.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F01267167979CD007220D0 /* one.m */; };
+		C8F0126B16797A1C007220D0 /* two.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F0126A16797A1C007220D0 /* two.m */; };
 		C8F6682C1678A3AD00EB5DDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F6682B1678A3AD00EB5DDD /* Foundation.framework */; };
 		C8F6682F1678A3AD00EB5DDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F6682E1678A3AD00EB5DDD /* main.m */; };
 		C8F668331678A3AD00EB5DDD /* singleton_pattern.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C8F668321678A3AD00EB5DDD /* singleton_pattern.1 */; };
@@ -26,6 +29,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C8F01262167976BF007220D0 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		C8F01263167976BF007220D0 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		C8F01266167979CD007220D0 /* one.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = one.h; sourceTree = "<group>"; };
+		C8F01267167979CD007220D0 /* one.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = one.m; sourceTree = "<group>"; };
+		C8F0126916797A1C007220D0 /* two.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = two.h; sourceTree = "<group>"; };
+		C8F0126A16797A1C007220D0 /* two.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = two.m; sourceTree = "<group>"; };
 		C8F668271678A3AD00EB5DDD /* singleton pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "singleton pattern"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F6682B1678A3AD00EB5DDD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C8F6682E1678A3AD00EB5DDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -78,6 +87,12 @@
 				C8F6682E1678A3AD00EB5DDD /* main.m */,
 				C8F668321678A3AD00EB5DDD /* singleton_pattern.1 */,
 				C8F668301678A3AD00EB5DDD /* Supporting Files */,
+				C8F01262167976BF007220D0 /* Singleton.h */,
+				C8F01263167976BF007220D0 /* Singleton.m */,
+				C8F01266167979CD007220D0 /* one.h */,
+				C8F01267167979CD007220D0 /* one.m */,
+				C8F0126916797A1C007220D0 /* two.h */,
+				C8F0126A16797A1C007220D0 /* two.m */,
 			);
 			path = "singleton pattern";
 			sourceTree = "<group>";
@@ -142,6 +157,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8F6682F1678A3AD00EB5DDD /* main.m in Sources */,
+				C8F01264167976BF007220D0 /* Singleton.m in Sources */,
+				C8F01268167979CD007220D0 /* one.m in Sources */,
+				C8F0126B16797A1C007220D0 /* two.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
